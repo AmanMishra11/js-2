@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keycode Keyboard</title>
+    <link rel="stylesheet" href="keycode.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Keycode Keyboard</h1>
+            <p class="subtitle">Press any key to get the keycode</p>
+        </div>
+
+        <div class="key-display">
+            <div class="key-info">
+                <div class="key-pressed">
+                    <span class="label">Key Pressed</span>
+                    <span id="keyPressed" class="value">Press a key</span>
+                </div>
+                <div class="key-code">
+                    <span class="label">Key Code</span>
+                    <span id="keyCode" class="value">-</span>
+                </div>
+                <div class="key-combo">
+                    <span class="label">Key Combination</span>
+                    <span id="keyCombo" class="value">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="history-section">
+            <h2>Key History</h2>
+            <div id="keyHistory" class="history-container">
+            </div>
+        </div>
+
+        <div class="settings">
+            <label class="sound-toggle">
+                <input type="checkbox" id="soundToggle" checked>
+                Enable Sound
+            </label>
+        </div>
+    </div>
+    <script src="keycode.js"></script>
+</body>
+</html>
+
