@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="sticky.css">
+</head>
+<body>
+    <div class="container">
+        <div class="note-form">
+            <h1>Sticky Notes</h1>
+            <div class="input-group">
+                <textarea 
+                    id="note-text" 
+                    placeholder="Write your note here..."
+                    rows="4"
+                ></textarea>
+                <div class="form-controls">
+                    <input 
+                        type="color" 
+                        id="note-color" 
+                        value="#ffeb3b"
+                        title="Choose note color"
+                    >
+                    <button id="add-note">Add Note</button>
+                    <button id="delete-all" class="danger">Delete All</button>
+                    <button id="undo" class="secondary" disabled>Undo</button>
+                </div>
+            </div>
+        </div>
+        <div id="notes-container"></div>
+    </div>
+    <script src="sticky.js"></script>
+</body>
+</html>
