@@ -9,7 +9,7 @@ Here, you'll find several JavaScript-based projects showcasing different functio
 **[Live Demo](https://amanmishra11.github.io/js-2/)**  
 A simple tool to calculate your exact age in years, months, and days based on your date of birth.
 
-![Age Calculator Screenshot](./screenshots/age-calculator.png)
+![Age Calculator Screenshot](./assets/age.png)
 
 ---
 
@@ -17,7 +17,7 @@ A simple tool to calculate your exact age in years, months, and days based on yo
 **[Live Demo](https://amanmishra11.github.io/js-2/dark.html)**  
 A responsive toggle feature to switch between Dark Mode and Light Mode, enhancing the user experience for different lighting environments.
 
-![Dark/Light Mode Screenshot](./screenshots/dark-light-mode.png)
+![Dark/Light Mode Screenshot](./assets/dark.jpg)
 
 ---
 
@@ -25,7 +25,7 @@ A responsive toggle feature to switch between Dark Mode and Light Mode, enhancin
 **[Live Demo](https://amanmishra11.github.io/js-2/products.html)**  
 A dynamic product list with cart management functionality, allowing users to add/remove products and adjust quantities.
 
-![Products/Cart Screenshot](./screenshots/products-cart.png)
+![Products/Cart Screenshot](./assets/products.png)
 
 ---
 
@@ -33,12 +33,16 @@ A dynamic product list with cart management functionality, allowing users to add
 **[Live Demo](https://amanmishra11.github.io/js-2/keycode.html)**  
 A fun and interactive tool to display the keycode and key value of any key pressed on the keyboard.
 
-![Keycode Keyboard Screenshot](./screenshots/keycode-keyboard.png)
+![Keycode Keyboard Screenshot](./assets/keycode.png)
 
 ---
 
-### How to Use
-1. Click on the links provided above to view the live demos.
-2. Explore each project and interact with the features.
+## 5. Sticky Notes
+**[Live Demo](https://amanmishra11.github.io/js-2/sticky.html)**  
+A fun and interactive page to add, delete sticky notes with a simple and intuitive interface.
 
-### Repository Structure
+![Keycode Keyboard Screenshot](./assets/sticky.png)
+
+---
+
+
