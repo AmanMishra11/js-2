@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Feedback System</title>
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="feedback-panel" class="panel">
+            <h1>How satisfied are you with our service?</h1>
+            <div class="feedback-options">
+                <div class="feedback-option" data-rating="unhappy">
+                    <div class="emoji">😞</div>
+                    <div class="mood">Unhappy</div>
+                </div>
+                <div class="feedback-option" data-rating="neutral">
+                    <div class="emoji">😐</div>
+                    <div class="mood">Neutral</div>
+                </div>
+                <div class="feedback-option" data-rating="satisfied">
+                    <div class="emoji">😊</div>
+                    <div class="mood">Satisfied</div>
+                </div>
+                <div class="feedback-option" data-rating="very-satisfied">
+                    <div class="emoji">🥰</div>
+                    <div class="mood">Very Satisfied</div>
+                </div>
+            </div>
+            <button id="send" class="send-btn" disabled>Send Review</button>
+        </div>
+
+        <div id="thank-you-panel" class="panel hidden">
+            <div class="heart-container">
+                <i class="fas fa-heart"></i>
+            </div>
+            <h1>Thank You!</h1>
+            <p class="feedback-message">We'll use your feedback to improve our customer support</p>
+            <div class="selected-rating"></div>
+            <button id="rate-again" class="send-btn">Rate Again</button>
+        </div>
+    </div>
+    <script src="feedback.js"></script>
+</body>
+</html>

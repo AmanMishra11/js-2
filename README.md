@@ -45,4 +45,12 @@ A fun and interactive page to add, delete sticky notes with a simple and intuiti
 
 ---
 
+## 6. Feedback
+**[Live Demo](https://amanmishra11.github.io/js-2/feedback.html)**  
+A fun and interactive page to give feedback using emojis.
+
+![Keycode Keyboard Screenshot](./assets/feedback.png)
+
+---
+
 
