@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #1a1a1a, #2c3e50);
+}
+
+.stopwatch {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #ecf0f1;
+}
+
+.display {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+    font-family: 'Courier New', monospace;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+#startBtn {
+    background: rgba(46, 204, 113, 0.2);
+}
+
+#stopBtn {
+    background: rgba(231, 76, 60, 0.2);
+}
+
+#resetBtn {
+    background: rgba(52, 152, 219, 0.2);
+}
+
+#lapBtn {
+    background: rgba(155, 89, 182, 0.2);
+}
+
+.laps {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+}
+
+.laps h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+#lapTimes {
+    list-style: none;
+}
+
+#lapTimes li {
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+    font-family: 'Courier New', monospace;
+}
+
+/* Animations */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}
+
+.running .display {
+    animation: pulse 1s infinite;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .stopwatch {
+        padding: 1rem;
+    }
+
+    .display {
+        font-size: 2.5rem;
+    }
+
+    .controls {
+        grid-template-columns: 1fr;
+    }
+}

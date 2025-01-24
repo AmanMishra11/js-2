@@ -61,5 +61,12 @@ A digital clock with options to set the design of the clock and options to set d
 
 ---
 
+## 8. Stopwatch
+**[Live Demo](https://amanmishra11.github.io/js-2/stopwatch.html)**  
+A stopwatch with start, stop, restart and lap functionalities. 
+
+![Keycode Keyboard Screenshot](./assets/stopwatch.png)
+
+---
 
 
