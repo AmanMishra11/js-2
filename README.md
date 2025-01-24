@@ -53,4 +53,13 @@ A fun and interactive page to give feedback using emojis.
 
 ---
 
+## 7. Digital Clock
+**[Live Demo](https://amanmishra11.github.io/js-2/clock.html)**  
+A digital clock with options to set the design of the clock and options to set different cities. 
+
+![Keycode Keyboard Screenshot](./assets/clock.png)
+
+---
+
+
 

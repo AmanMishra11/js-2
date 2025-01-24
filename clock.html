@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Digital Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="container">
+        <div class="clock-container">
+            <div class="greeting" id="greeting">Good Morning!</div>
+            <div class="clock" id="clock">00:00:00</div>
+            <div class="date" id="date">Monday, January 1, 2024</div>
+        </div>
+        <div class="controls">
+            <button class="style-btn" data-style="modern">Modern</button>
+            <button class="style-btn" data-style="classic">Classic</button>
+            <button class="style-btn" data-style="neon">Neon</button>
+        </div>
+        <div class="timezone-container">
+            <select id="timezone-select">
+                <option value="local">Local Time</option>
+                <option value="UTC">UTC</option>
+                <option value="America/New_York">New York</option>
+                <option value="Europe/London">London</option>
+                <option value="Asia/Tokyo">Tokyo</option>
+            </select>
+        </div>
+        <div class="weather-container" id="weather">
+            <div class="weather-info">
+                Loading weather...
+            </div>
+        </div>
+        <div class="fact-container" id="time-fact">
+            Did you know? Time flies when you're having fun!
+        </div>
+    </div>
+    <script src="clock.js"></script>
+</body>
+</html>
