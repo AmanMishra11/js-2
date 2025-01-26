@@ -69,7 +69,7 @@ A stopwatch with start, stop, restart and lap functionalities.
 
 ---
 
-## 8. Burgerking Order
+## 9. Burgerking Order
 **[Live Demo](https://amanmishra11.github.io/js-2/burgerking.html)**  
 A burgerking ordering website which would display when your order is ready with sound effect. 
 
@@ -77,7 +77,7 @@ A burgerking ordering website which would display when your order is ready with 
 
 ---
 
-## 8. Leaderboard
+## 10. Leaderboard
 **[Live Demo](https://amanmishra11.github.io/js-2/leaderboard.html)**  
 A leaderboard page where you can add player details and score to put up in the leaderboard and add or subtract 5 from their points in the leaderboard and their position will change automatically. 
 
