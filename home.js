@@ -70,6 +70,13 @@ const projects = [
       liveLink: "https://amanmishra11.github.io/js-2/leaderboard.html",
       codeLink: "https://github.com/AmanMishra11/js-2",
     },
+    {
+      title: "Emoji Search",
+      description: "An Emoji search page where you can search for emojis and it will display the relevamnt emojis and their description.",
+      image: "./assets/emoji.png",
+      liveLink: "https://amanmishra11.github.io/js-2/emoji.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
+    }
   ];
 
   function createProjectCard(project) {

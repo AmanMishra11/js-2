@@ -85,5 +85,13 @@ A leaderboard page where you can add player details and score to put up in the l
 
 ---
 
+## 11. Emoji Search
+**[Live Demo](https://amanmishra11.github.io/js-2/emoji.html)**  
+An Emoji search page where you can search for emojis and it will display the relevamnt emojis and their description.
+
+![Keycode Keyboard Screenshot](./assets/emoji.png)
+
+---
+
 
 
