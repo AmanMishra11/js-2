@@ -76,6 +76,13 @@ const projects = [
       image: "./assets/emoji.png",
       liveLink: "https://amanmishra11.github.io/js-2/emoji.html",
       codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "Image Search",
+      description: "An image search interface built with vanilla JavaScript, featuring Unsplash API integration, local storage for favorites, and a responsive grid layout with neon-cyberpunk aesthetics.",
+      image: "./assets/image.png",
+      liveLink: "https://amanmishra11.github.io/js-2/image.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
     }
   ];
 

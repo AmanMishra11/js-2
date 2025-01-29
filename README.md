@@ -93,5 +93,13 @@ An Emoji search page where you can search for emojis and it will display the rel
 
 ---
 
+## 12. Image Search
+**[Live Demo](https://amanmishra11.github.io/js-2/image.html)**  
+An image search interface built with vanilla JavaScript, featuring Unsplash API integration, local storage for favorites, and a responsive grid layout with neon-cyberpunk aesthetics.
+
+![Keycode Keyboard Screenshot](./assets/image.png)
+
+---
+
 
 

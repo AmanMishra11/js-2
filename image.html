@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Image Search</title>
+    <link rel="stylesheet" href="image.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Image<span class="neon-text">Search</span></h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for images...">
+                <button id="searchBtn" class="neon-button">Search</button>
+            </div>
+        </header>
+
+        <div class="loader" id="loader">
+            <div class="neon-spinner"></div>
+        </div>
+
+        <div class="gallery" id="imageGallery"></div>
+
+        <button id="showMoreBtn" class="neon-button show-more">Show More</button>
+
+        <div id="favorites" class="favorites">
+            <h2>Favorites</h2>
+            <div class="favorites-gallery" id="favoritesGallery"></div>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img id="lightbox-img" src="/placeholder.svg" alt="">
+        <div class="lightbox-info">
+            <p id="photographer"></p>
+            <button id="downloadBtn" class="neon-button">Download</button>
+        </div>
+    </div>
+
+    <script src="image.js"></script>
+</body>
+</html>
