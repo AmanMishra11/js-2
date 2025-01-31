@@ -83,6 +83,13 @@ const projects = [
       image: "./assets/image.png",
       liveLink: "https://amanmishra11.github.io/js-2/image.html",
       codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "Dad Jokes Generator",
+      description: "A web application that delivers dad jokes on-demand with features like favorites, sharing, and theme customization, built with HTML, CSS, and JavaScript, inspired by Google AI's design aesthetics. ",
+      image: "./assets/dadjoke.png",
+      liveLink: "https://amanmishra11.github.io/js-2/image.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
     }
   ];
 

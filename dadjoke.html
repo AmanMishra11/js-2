@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad Jokes Generator</title>
+    <link rel="stylesheet" href="dadjoke.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="theme-toggle">
+            <button id="themeToggle" aria-label="Toggle theme">
+                <svg class="moon" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M21.53 15.93c-.16-.27-.61-.69-1.73-.49a8.46 8.46 0 01-1.88.13 8.409 8.409 0 01-5.91-2.82 8.068 8.068 0 01-1.44-8.66c.44-1.01.13-1.54-.09-1.76s-.77-.55-1.83-.11a10.318 10.318 0 00-6.32 10.21 10.475 10.475 0 007.04 8.99 10 10 0 002.89.55c.16.01.32.02.48.02a10.5 10.5 0 008.47-4.27c.67-.93.49-1.519.32-1.79z"/>
+                </svg>
+            </button>
+        </div>
+        
+        <div class="content">
+            <h1>Dad Jokes Generator</h1>
+            <div class="joke-container">
+                <div id="jokeText" class="joke-text">
+                    Want a joke to cheer you up? Click on the button below! 😄
+                </div>
+                <div class="loading-spinner" id="loadingSpinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button id="getJokeBtn" class="primary-button">
+                    Tell Me A Joke
+                </button>
+                
+                <div class="action-controls">
+                    <button id="heartBtn" class="icon-button" aria-label="Add to favorites">
+                        <svg class="heart-icon" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </button>
+                    <button id="shareBtn" class="secondary-button" aria-label="Share joke">
+                        Share Joke
+                    </button>
+                    <div class="text-controls">
+                        <button id="textSizeDecrease" class="text-size-btn" aria-label="Decrease text size">A-</button>
+                        <button id="textSizeIncrease" class="text-size-btn" aria-label="Increase text size">A+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="favoritesSection" class="favorites-section">
+                <h2>Favorite Jokes</h2>
+                <div id="favoritesList" class="favorites-list">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dadjoke.js"></script>
+</body>
+</html>
