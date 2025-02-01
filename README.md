@@ -3,6 +3,8 @@
 Welcome to my JavaScript Projects repository! 🎉  
 Here, you'll find several JavaScript-based projects showcasing different functionalities and concepts. Below is the list of projects along with their links, descriptions, and screenshots.
 
+You can visit the **[Home Page](https://amanmishra11.github.io/js-2/home.html)** or scroll down to checkout the live demo for the various projects.
+
 ---
 
 ## 1. Age Calculator
@@ -106,6 +108,14 @@ An image search interface built with vanilla JavaScript, featuring Unsplash API 
 A web application that delivers dad jokes on-demand with features like favorites, sharing, and theme customization, built with HTML, CSS, and JavaScript, inspired by Google AI's design aesthetics.
 
 ![Keycode Keyboard Screenshot](./assets/dadjoke.png)
+
+---
+
+## 14. Match the Pair
+**[Live Demo](https://amanmishra11.github.io/js-2/match.html)**  
+An elegant memory matching game with modern UI animations and neon effects.
+
+![Keycode Keyboard Screenshot](./assets/match.png)
 
 ---
 

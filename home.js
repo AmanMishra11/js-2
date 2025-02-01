@@ -90,6 +90,13 @@ const projects = [
       image: "./assets/dadjoke.png",
       liveLink: "https://amanmishra11.github.io/js-2/dadjoke.html",
       codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "Match the Pair",
+      description: "An elegant memory matching game with modern UI animations and neon effects. ",
+      image: "./assets/match.png",
+      liveLink: "https://amanmishra11.github.io/js-2/match.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
     }
   ];
 
