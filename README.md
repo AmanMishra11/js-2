@@ -119,4 +119,12 @@ An elegant memory matching game with modern UI animations and neon effects.
 
 ---
 
+## 15. Find your Pokemon 🌟
+**[Live Demo](https://amanmishra11.github.io/js-2/pokemon.html)**  
+A cyberpunk-themed Pokémon explorer with neon-styled type filtering and card displays.
+
+![Keycode Keyboard Screenshot](./assets/pokemon.png)
+
+---
+
 

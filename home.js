@@ -97,6 +97,13 @@ const projects = [
       image: "./assets/match.png",
       liveLink: "https://amanmishra11.github.io/js-2/match.html",
       codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "Find your Pokemon",
+      description: "A cyberpunk-themed Pokémon explorer with neon-styled type filtering and card displays. ",
+      image: "./assets/pokemon.png",
+      liveLink: "https://amanmishra11.github.io/js-2/pokemon.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
     }
   ];
 

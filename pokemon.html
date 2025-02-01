@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Pokémon</title>
+    <link rel="stylesheet" href="pokemon.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="neon-text">Find Your Pokémon</h1>
+            <div class="main-buttons">
+                <button id="showTypesBtn" class="neon-btn">Types</button>
+                <button id="showAllBtn" class="neon-btn">Show All Pokémon</button>
+            </div>
+            <div class="search-container" style="display: none;">
+                <input type="text" id="searchInput" placeholder="Search Pokémon...">
+                <button id="resetBtn" class="neon-btn">Reset</button>
+            </div>
+        </header>
+
+        <div id="loadingSpinner" class="loading-spinner">
+            <div class="pokeball"></div>
+            <p>Loading...</p>
+        </div>
+
+        <div id="errorMessage" class="error-message"></div>
+
+        <main id="typeGrid" class="pokemon-grid" style="display: none;">
+            
+        </main>
+
+        <main id="pokemonGrid" class="pokemon-grid" style="display: none;">
+        </main>
+    </div>
+    <script src="pokemon.js"></script>
+</body>
+</html>
