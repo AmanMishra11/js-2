@@ -104,6 +104,13 @@ const projects = [
       image: "./assets/pokemon.png",
       liveLink: "https://amanmishra11.github.io/js-2/pokemon.html",
       codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "Artist Suggester",
+      description: "A sleek AI-powered music discovery tool that generates personalized artist recommendations based on user preferences using Google's Gemini API, featuring a modern neon-themed UI with split-screen layout.",
+      image: "./assets/artist.png",
+      liveLink: "https://amanmishra11.github.io/js-2/artist.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
     }
   ];
 

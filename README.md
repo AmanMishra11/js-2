@@ -127,4 +127,12 @@ A cyberpunk-themed Pokémon explorer with neon-styled type filtering and card di
 
 ---
 
+## 16. Artist Suggester 
+**[Live Demo](https://amanmishra11.github.io/js-2/artist.html)**  
+A sleek AI-powered music discovery tool that generates personalized artist recommendations based on user preferences using Google's Gemini API, featuring a modern neon-themed UI with split-screen layout.
+
+![Keycode Keyboard Screenshot](./assets/artist.png)
+
+---
+
 

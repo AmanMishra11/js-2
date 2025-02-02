@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Suggester</title>
+    <link rel="stylesheet" href="artist.css">
+</head>
+<body>
+    <div class="split-container">
+        <div class="left-panel">
+            <h1>Artist Suggester</h1>
+            <div class="input-group">
+                <div class="input-field">
+                    <label for="genre">Genre</label>
+                    <input type="text" id="genre" placeholder="e.g., Rock, Jazz, Hip-Hop">
+                </div>
+                
+                <div class="input-field">
+                    <label for="language">Language</label>
+                    <input type="text" id="language" placeholder="e.g., English, Spanish">
+                </div>
+                
+                <div class="input-field">
+                    <label for="country">Country</label>
+                    <input type="text" id="country" placeholder="e.g., USA, UK, Japan">
+                </div>
+                
+                <div class="input-field">
+                    <label for="year">Year/Era</label>
+                    <input type="text" id="year" placeholder="e.g., 1980s, 2010s">
+                </div>
+                
+                <div class="input-field">
+                    <label for="mood">Mood</label>
+                    <input type="text" id="mood" placeholder="e.g., Energetic, Melancholic">
+                </div>
+                
+                <div class="input-field">
+                    <label for="instruments">Preferred Instruments</label>
+                    <input type="text" id="instruments" placeholder="e.g., Guitar, Piano, Drums">
+                </div>
+                
+                <div class="input-field">
+                    <label for="additional">Additional Preferences</label>
+                    <textarea id="additional" placeholder="e.g., similar artists, themes, vocal style"></textarea>
+                </div>
+            </div>
+            <button id="suggest-btn">Discover Artists</button>
+        </div>
+
+        <div class="right-panel">
+            <div class="response-container">
+                <div class="response-content">
+                    <div id="loading" class="hidden">
+                        <div class="spinner"></div>
+                        <p>Finding perfect matches...</p>
+                    </div>
+                    <div id="output"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "@google/generative-ai": "https://esm.run/@google/generative-ai"
+            }
+        }
+    </script>
+    <script src="artist.js" type="module"></script>
+</body>
+</html>
