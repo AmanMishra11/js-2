@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="movie.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header class="glass-header">
+            <h1>MOVIE<span class="neon-text">FLIX</span></h1>
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search movies..."
+                    class="glass-input"
+                >
+                <div class="loading-indicator" id="loadingIndicator">
+                    <div class="scanner"></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="movies-grid" id="moviesGrid"></div>
+
+            <div class="pagination glass-nav" id="pagination">
+                <button class="page-btn" id="prevPage">Previous</button>
+                <span id="currentPage">Page 1</span>
+                <button class="page-btn" id="nextPage">Next</button>
+            </div>
+        </main>
+
+        <div class="modal" id="movieModal">
+            <div class="modal-content glass-card">
+                <span class="close-btn" id="closeModal">&times;</span>
+                <div class="modal-body" id="modalContent"></div>
+            </div>
+        </div>
+    </div>
+    <script src="movie.js"></script>
+</body>
+</html>

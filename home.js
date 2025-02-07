@@ -111,6 +111,20 @@ const projects = [
       image: "./assets/artist.png",
       liveLink: "https://amanmishra11.github.io/js-2/artist.html",
       codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "AUser Cards",
+      description: "A web page hwere any user can put in their details and it will get saved in forms of card, and on clicking the cards with their respective names the card will flip and display all the details.",
+      image: "./assets/card.png",
+      liveLink: "https://amanmishra11.github.io/js-2/card.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "Movie Search Machine",
+      description: "MovieFlix is a punk-themed movie search application featuring real-time debounced search, dynamic movie details, and a sleek  UI with neon accents, powered by the OMDB API.",
+      image: "./assets/movie.png",
+      liveLink: "https://amanmishra11.github.io/js-2/movie.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
     }
   ];
 

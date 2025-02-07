@@ -135,4 +135,20 @@ A sleek AI-powered music discovery tool that generates personalized artist recom
 
 ---
 
+## 17. User Cards
+**[Live Demo](https://amanmishra11.github.io/js-2/card.html)**  
+A web page hwere any user can put in their details and it will get saved in forms of card, and on clicking the cards with their respective names the card will flip and display all the details.
+
+![Keycode Keyboard Screenshot](./assets/card.png)
+
+---
+
+## 18. Movie Search Machine 
+**[Live Demo](https://amanmishra11.github.io/js-2/movie.html)**  
+MovieFlix is a punk-themed movie search application featuring real-time debounced search, dynamic movie details, and a sleek  UI with neon accents, powered by the OMDB API.
+
+![Keycode Keyboard Screenshot](./assets/movie.png)
+
+---
+
 

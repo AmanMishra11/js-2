@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Cards</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body class="dark-theme">
+    <div class="theme-toggle">
+        <button id="themeToggle">Toggle Theme</button>
+    </div>
+
+    <div class="container">
+        <div class="form-section">
+            <h2 class="neon-text">Add New User</h2>
+            <form id="userForm">
+                <div class="form-group">
+                    <input type="text" id="name" required placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" required placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="village" required placeholder="Village">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="city" required placeholder="City">
+                </div>
+                <button type="submit" class="neon-button">Add User</button>
+            </form>
+        </div>
+
+        <div class="cards-container" id="cardsContainer">
+        </div>
+    </div>
+
+    <script src="card.js"></script>
+</body>
+</html>
