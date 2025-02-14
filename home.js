@@ -125,6 +125,20 @@ const projects = [
       image: "./assets/movie.png",
       liveLink: "https://amanmishra11.github.io/js-2/movie.html",
       codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "Infinite Picture Scroll ",
+      description: "Scroll endlessly through high quality images with a classy theme and smooth animations, powered by the Unsplash API.",
+      image: "./assets/scroll.png",
+      liveLink: "https://amanmishra11.github.io/js-2/scroll.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "Phone Humter",
+      description: "Phone Hunter is a application featuring real-time search, with the phone images and specification cards, and a sleek UI with neon accents, powered by the openapi.",
+      image: "./assets/phone.png",
+      liveLink: "https://amanmishra11.github.io/js-2/phone.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
     }
   ];
 

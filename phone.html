@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Hunter</title>
+    <link rel="stylesheet" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <div class="theme-toggle">
+        <button id="themeToggle">
+            <span class="sun">☀️</span>
+            <span class="moon">🌙</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Phone Hunter</h1>
+            <p>Find your perfect phone</p>
+        </header>
+
+        <div class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for phones...">
+                <button id="searchBtn">Search</button>
+            </div>
+            <button id="showAllBtn">Show All</button>
+        </div>
+
+        <div class="loading-spinner" id="loadingSpinner">
+            <div class="spinner"></div>
+        </div>
+
+        <div class="results-container">
+            <div id="phoneResults" class="phone-grid"></div>
+        </div>
+
+        <div id="phoneModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <div id="phoneDetails"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created with ❤️ by Phone Hunter Team</p>
+    </footer>
+
+    <script src="phone.js"></script>
+</body>
+</html>

@@ -151,4 +151,20 @@ MovieFlix is a punk-themed movie search application featuring real-time debounce
 
 ---
 
+## 18. Infinite Picture Scroll 
+**[Live Demo](https://amanmishra11.github.io/js-2/scroll.html)**  
+Scroll endlessly through high quality images with a classy theme and smooth animations, powered by the Unsplash API.
+
+![Keycode Keyboard Screenshot](./assets/scroll.png)
+
+---
+
+## 18. Phone Humter
+**[Live Demo](https://amanmishra11.github.io/js-2/phone.html)**  
+Phone Hunter is a application featuring real-time search, with the phone images and specification cards, and a sleek UI with neon accents, powered by the openapi.
+
+![Keycode Keyboard Screenshot](./assets/phone.png)
+
+---
+
 
