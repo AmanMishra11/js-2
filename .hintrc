@@ -11,7 +11,8 @@
           "backdrop-filter"
         ]
       }
-    ]
+    ],
+    "axe/forms": "off"
   },
   "browserslist": [
     "defaults",

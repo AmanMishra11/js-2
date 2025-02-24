@@ -132,14 +132,29 @@ const projects = [
       image: "./assets/scroll.png",
       liveLink: "https://amanmishra11.github.io/js-2/scroll.html",
       codeLink: "https://github.com/AmanMishra11/js-2",
-    },
+    }, 
     {
       title: "Phone Humter",
       description: "Phone Hunter is a application featuring real-time search, with the phone images and specification cards, and a sleek UI with neon accents, powered by the openapi.",
       image: "./assets/phone.png",
       liveLink: "https://amanmishra11.github.io/js-2/phone.html",
       codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "Analytics Dashboard",
+      description: "A modern, interactive analytics dashboard featuring real-time data visualization with Chart.js, smooth animations via Anime.js, and a sleek dark theme with responsive design for optimal viewing across all devices.",
+      image: "./assets/chart.png",
+      liveLink: "https://amanmishra11.github.io/js-2/chart.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
+    },
+    {
+      title: "Multi-Search Engine",
+      description: "A modern, interactive search engine which will show varios search results from Google, Gemini and Wikipedia. It is intergrrated with the APIs of the search engines.",
+      image: "./assets/search.png",
+      liveLink: "https://amanmishra11.github.io/js-2/search.html",
+      codeLink: "https://github.com/AmanMishra11/js-2",
     }
+    
   ];
 
   function createProjectCard(project) {

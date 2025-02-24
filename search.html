@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Search Engine</title>
+    <link rel="stylesheet" href="search.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <div class="theme-toggle">
+        <button id="themeToggle">
+            <span class="moon">🌙</span>
+            <span class="sun">☀️</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="search-container">
+            <h1>Multi-Search Engine</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Enter your search query...">
+                <button id="searchButton">Search</button>
+            </div>
+
+            <div class="search-options">
+                <button class="engine-btn active" data-engine="google">Google</button>
+                <button class="engine-btn" data-engine="gemini">Gemini</button>
+                <button class="engine-btn" data-engine="wikipedia">Wikipedia</button>
+            </div>
+
+            <div class="advanced-options">
+                <select id="filterOptions">
+                    <option value="all">All Results</option>
+                    <option value="recent">Recent (24h)</option>
+                    <option value="week">Past Week</option>
+                    <option value="month">Past Month</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="results-container">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="all">All Results</button>
+                <button class="tab-btn" data-tab="images">Images</button>
+                <button class="tab-btn" data-tab="news">News</button>
+            </div>
+
+            <div id="searchResults" class="results-grid">
+                <div class="placeholder-result">
+                    <p>Enter a search term to begin...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="search.js"></script>
+</body>
+</html>

@@ -167,4 +167,19 @@ Phone Hunter is a application featuring real-time search, with the phone images 
 
 ---
 
+## 19. Analytics Dashboard
+**[Live Demo](https://amanmishra11.github.io/js-2/chart.html)**  
+A modern, interactive analytics dashboard featuring real-time data visualization with Chart.js, smooth animations via Anime.js, and a sleek dark theme with responsive design for optimal viewing across all devices.
+
+![Keycode Keyboard Screenshot](./assets/chart.png)
+
+---
+
+## 20. Multi-Search Engine
+**[Live Demo](https://amanmishra11.github.io/js-2/search.html)**  
+A modern, interactive search engine which will show varios search results from Google, Gemini and Wikipedia. It is intergrrated with the APIs of the search engines.
+
+![Keycode Keyboard Screenshot](./assets/search.png)
+
+---
 
